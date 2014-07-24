@@ -2690,7 +2690,7 @@ enum GCDAsyncSocketConfig
 		
 		if (flags & kSocketStarted)
 		{
-			[self closeWithError:nil];
+			[self closeWithError:[self disconnectedError]];
 		}
 	}};
 	
