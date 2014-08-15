@@ -17,7 +17,7 @@ Updated and maintained by Deusty LLC and the Apple development community.
   s.authors  = 'Dustin Voss', { 'Robbie Hanson' => 'robbiehanson@deusty.com' }
 
   s.header_dir = 'CocoaAsyncSocket'
-  s.source   = { :git => 'https://github.com/robbiehanson/CocoaAsyncSocket.git',
+  s.source   = { :git => 'https://github.com/opentable/CocoaAsyncSocket.git',
                  :tag => "#{version}-OT" }
 
   s.description = 'CocoaAsyncSocket supports TCP and UDP. The AsyncSocket class is for TCP, and the AsyncUdpSocket class is for UDP. ' \
