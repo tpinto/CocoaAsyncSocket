@@ -93,7 +93,7 @@ typedef enum GCDAsyncSocketError GCDAsyncSocketError;
 @property (atomic, weak, readwrite) id delegate;
 
 #if OS_OBJECT_USE_OBJC
-@property (atomic, readwrite) dispatch_queue_t delegateQueue;
+@property (atomic, readwrite) __attribute__((NSObject)) dispatch_queue_t delegateQueue;
 #else
 @property (atomic, assign, readwrite) dispatch_queue_t delegateQueue;
 #endif
